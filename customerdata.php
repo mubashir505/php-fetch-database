@@ -26,6 +26,8 @@ include("connection.php");
          <td><?php echo $r['id'] ?></td>
         <td><?php echo $r['username'] ?></td>
         <td><?php echo $r['password'] ?></td>
+        <td> <a href="delete.php?id=<?php echo $r['id'] ?>">delete</a></td>
+        <td> <a href="update.php"?id=<?php $r=['id']?>>edit</a></td>
         </tr>
 
         <?php
